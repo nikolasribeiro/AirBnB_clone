@@ -25,7 +25,7 @@ class FileStorage:
     def save(self):
         """ function save """
         with open(self.__file_path, "w", encoding="utf-8") as file:
-            ''' d = new_dictionary '''
+            """ d = new_dictionary """
             d = {key: value.to_dict() for key, value in self.__objects.items()}
             json.dump(d, file)
 
