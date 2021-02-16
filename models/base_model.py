@@ -39,7 +39,7 @@ class BaseModel:
 
     def to_dict(self):
         """ ToDict Function """
-        alm_diccionario = self.__dict__
+        alm_diccionario = dict(self.__dict__)
         alm_diccionario["__class__"] = type(self).__name__
         alm_diccionario["created_at"] = alm_diccionario["created_at"].isoformat()
         alm_diccionario["updated_at"] = alm_diccionario["updated_at"].isoformat()
