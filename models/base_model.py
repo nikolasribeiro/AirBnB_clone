@@ -34,7 +34,8 @@ class BaseModel:
     def __str__(self):
         """ function __str__ """
         """ STR function """
-        return "[{}] ({}) {}".format(type(self).__name__, self.id, self.to_dict())
+        return "[{}] ({}) {}".\
+            format(type(self).__name__, self.id, self.to_dict())
 
     def save(self):
         """ function save """
@@ -47,6 +48,8 @@ class BaseModel:
         """ ToDict Function """
         alm_diccionario = dict(self.__dict__)
         alm_diccionario["__class__"] = type(self).__name__
-        alm_diccionario["created_at"] = alm_diccionario["created_at"].isoformat()
-        alm_diccionario["updated_at"] = alm_diccionario["updated_at"].isoformat()
+        alm_diccionario["created_at"] = alm_diccionario["created_at"].\
+            isoformat()
+        alm_diccionario["updated_at"] = alm_diccionario["updated_at"].\
+            isoformat()
         return alm_diccionario
