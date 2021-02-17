@@ -137,12 +137,11 @@ class HBNBCommand(cmd.Cmd):
                         return
             print("** no instance found **")
 
-    """def do_prueba(self, args):
-        args = shlex.split(args)
-        print (args)
-        #print (eval(args))
-        print (type(args))
-    """
+
+
+
+
+
 
 
 if __name__ == "__main__":
