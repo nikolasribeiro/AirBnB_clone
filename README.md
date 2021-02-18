@@ -124,8 +124,8 @@ Style guidelines: PEP8
 
 # Authors
 
-* Miguel Crespi |
-* Nicolas Ribeiro |
+* Miguel Crespi | https://github.com/tucucrespi
+* Nicolas Ribeiro | https://github.com/nikolasribeiro
 
 
 
