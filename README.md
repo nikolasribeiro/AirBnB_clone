@@ -25,6 +25,7 @@ create all unittests to validate all our classes and storage engine
 * Update attributes of an object
 * Destroy an object
 
+
 # What’s a command interpreter?
 
 A command interpreter is the part of a computer operating system that understands and executes commands that are entered interactively by a human being or from a program.
@@ -72,9 +73,7 @@ A command interpreter is the part of a computer operating system that understand
     [BaseModel] (228b5b0b-0a25-493b-bf7b-2bb9b7dffe32) {'id': '228b5b0b-0a25-493b-bf7b-2bb9b7dffe32', 'created_at': '2021-02-18T18:03:37.393334', 'updated_at': '2021-02-18T18:03:37.393355', '__class__': 'BaseModel'}
     (hbnb) quit
 
-# Usage
 
-This interpreter has basic console commands such as help, quit, EOF, create, show, destroy and update.
 
 # Files
 
@@ -106,6 +105,17 @@ This interpreter has basic console commands such as help, quit, EOF, create, sho
 * console.py
 * README.md
 * AUTHORS
+
+# Commands
+
+    EOF -(Exit command interpreter)
+    all - (Displays every instance of class_name, if used without option displays every instance saved to the file)
+    create - (Creates an instance of class_name)
+    destroy - (Deletes all attributes of class)
+    help - (Displays all available commands)
+    quit - (Exit command interpreter)
+    show -(Displays all attributes of class)
+    update - (Updates the key:value of class)
 
 # Environment
 
