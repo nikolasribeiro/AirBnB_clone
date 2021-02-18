@@ -1,4 +1,4 @@
-![imagen airbnb](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210218T195758Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=08f094e55735d5c2e9fbb7d27c8af832033eb5e1efd5dd60dca43a81c4cfa575)
+![imagen airbnb](https://camo.githubusercontent.com/59589bd21e8ec09ef94f2d9bb80d36d144bc487fe4737f8b213d005f3273921b/68747470733a2f2f696d6775722e636f6d2f4f696c457358562e706e67)
 
                             Welcome to the AirBnB clone project! - The Console 
 
