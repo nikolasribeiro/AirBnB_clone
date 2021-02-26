@@ -8,11 +8,8 @@ from models import storage
 class BaseModel:
     """ class BaseModel """
 
-    """ Class Base Model """
-
     def __init__(self, *args, **kwargs):
         """ function __init__ """
-        """ Init function constructor """
         if kwargs is not None and kwargs != {}:
             for key in kwargs.keys():
                 if key == "created_at":
@@ -33,19 +30,16 @@ class BaseModel:
 
     def __str__(self):
         """ function __str__ """
-        """ STR function """
         return "[{}] ({}) {}".\
             format(type(self).__name__, self.id, self.to_dict())
 
     def save(self):
         """ function save """
-        """ Save function """
         self.updated_at = datetime.now()
         storage.save()
 
     def to_dict(self):
         """ function to_dict """
-        """ ToDict Function """
         alm_diccionario = dict(self.__dict__)
         alm_diccionario["__class__"] = type(self).__name__
         alm_diccionario["created_at"] = alm_diccionario["created_at"].\

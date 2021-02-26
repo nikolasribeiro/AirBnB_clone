@@ -33,7 +33,7 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def do_quit(self, line):
-        """ function do_quit """
+        """ Quit command to exit the program """
         return True
 
     def do_create(self, arg):
